@@ -23,6 +23,6 @@ here i use redis, as it can not only be deployed on localhost also we don't need
 
 1. the first step, we need to download the redis stack, which is the key point to realize a vector database based on Redis, here i use docker to pull the image--> docker run -p 6379:6379 redis/redis-stack-server:latest
 2. once we pull this image to our localhost, we need to start it
-3. then we need to write a config file to set up this vector database(here i set the port to 8080, so to start our project, we need to change the app's port to maybe 8081)
+3. then we need to write a config file to set up this vector database
 4. once we finish all the previous steps, we can now upload the local files to the database(we just need to upload it once, so i write it in the test folder)
 5. finally, create a content retriver and everything will be done!!!
